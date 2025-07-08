@@ -1,14 +1,20 @@
 {
   "name": "modulo-matematica",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "dist/operacoes.js",
+  "files": [ 
+    "dist"
+  ],
+  "exports": { 
+    "./operacoes.js": "./dist/operacoes.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "typescript": "^5.8.3"
   }
